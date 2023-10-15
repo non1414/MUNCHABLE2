@@ -11,6 +11,10 @@
 		1E86E68C2AD3FB820015EB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E68B2AD3FB820015EB9C /* ContentView.swift */; };
 		1E86E68E2AD3FB830015EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E86E68D2AD3FB830015EB9C /* Assets.xcassets */; };
 		1E86E6922AD3FB830015EB9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E86E6912AD3FB830015EB9C /* Preview Assets.xcassets */; };
+		1E86E6992AD3FC2C0015EB9C /* Splash Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E6982AD3FC2C0015EB9C /* Splash Screen.swift */; };
+		1E86E69D2AD3FD440015EB9C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E69C2AD3FD440015EB9C /* Onboarding.swift */; };
+		1E86E6A32ADAABA30015EB9C /* Make it .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E6A22ADAABA30015EB9C /* Make it .swift */; };
+		1E86E6A52ADAAC640015EB9C /* demoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E86E6A42ADAAC640015EB9C /* demoVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		1E86E68D2AD3FB830015EB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E86E68F2AD3FB830015EB9C /* MUNCHABLE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MUNCHABLE.entitlements; sourceTree = "<group>"; };
 		1E86E6912AD3FB830015EB9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E86E6982AD3FC2C0015EB9C /* Splash Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Splash Screen.swift"; sourceTree = "<group>"; };
+		1E86E69C2AD3FD440015EB9C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		1E86E6A22ADAABA30015EB9C /* Make it .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Make it .swift"; sourceTree = "<group>"; };
+		1E86E6A42ADAAC640015EB9C /* demoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demoVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				1E86E6892AD3FB820015EB9C /* MUNCHABLEApp.swift */,
 				1E86E68B2AD3FB820015EB9C /* ContentView.swift */,
+				1E86E6982AD3FC2C0015EB9C /* Splash Screen.swift */,
+				1E86E69C2AD3FD440015EB9C /* Onboarding.swift */,
+				1E86E6A22ADAABA30015EB9C /* Make it .swift */,
+				1E86E6A42ADAAC640015EB9C /* demoVideo.mp4 */,
 				1E86E68D2AD3FB830015EB9C /* Assets.xcassets */,
 				1E86E68F2AD3FB830015EB9C /* MUNCHABLE.entitlements */,
 				1E86E6902AD3FB830015EB9C /* Preview Content */,
@@ -129,6 +141,7 @@
 			files = (
 				1E86E6922AD3FB830015EB9C /* Preview Assets.xcassets in Resources */,
 				1E86E68E2AD3FB830015EB9C /* Assets.xcassets in Resources */,
+				1E86E6A52ADAAC640015EB9C /* demoVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E86E6992AD3FC2C0015EB9C /* Splash Screen.swift in Sources */,
 				1E86E68C2AD3FB820015EB9C /* ContentView.swift in Sources */,
+				1E86E6A32ADAABA30015EB9C /* Make it .swift in Sources */,
+				1E86E69D2AD3FD440015EB9C /* Onboarding.swift in Sources */,
 				1E86E68A2AD3FB820015EB9C /* MUNCHABLEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
