@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E45206B2B3C43E20054838B /* demoVideo2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 1E45206A2B3C43E20054838B /* demoVideo2.MOV */; };
 		1E86E68A2AD3FB820015EB9C /* MUNCHABLEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E6892AD3FB820015EB9C /* MUNCHABLEApp.swift */; };
 		1E86E68C2AD3FB820015EB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E68B2AD3FB820015EB9C /* ContentView.swift */; };
 		1E86E68E2AD3FB830015EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E86E68D2AD3FB830015EB9C /* Assets.xcassets */; };
@@ -15,9 +16,14 @@
 		1E86E69D2AD3FD440015EB9C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E69C2AD3FD440015EB9C /* Onboarding.swift */; };
 		1E86E6A32ADAABA30015EB9C /* Make it .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E6A22ADAABA30015EB9C /* Make it .swift */; };
 		1E86E6A52ADAAC640015EB9C /* demoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E86E6A42ADAAC640015EB9C /* demoVideo.mp4 */; };
+		1E86E6A92ADC04700015EB9C /* LoadingRecipesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E6A82ADC04700015EB9C /* LoadingRecipesPage.swift */; };
+		1E86E6AB2ADC05C10015EB9C /* CategorysPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86E6AA2ADC05C10015EB9C /* CategorysPage.swift */; };
+		1E9F64AB2B0254A100092F2B /* ingredientsPaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F64AA2B0254A100092F2B /* ingredientsPaje.swift */; };
+		1E9F64AD2B027D8200092F2B /* RecipeFromAi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F64AC2B027D8200092F2B /* RecipeFromAi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E45206A2B3C43E20054838B /* demoVideo2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demoVideo2.MOV; sourceTree = "<group>"; };
 		1E86E6862AD3FB820015EB9C /* MUNCHABLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUNCHABLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E86E6892AD3FB820015EB9C /* MUNCHABLEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNCHABLEApp.swift; sourceTree = "<group>"; };
 		1E86E68B2AD3FB820015EB9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +34,10 @@
 		1E86E69C2AD3FD440015EB9C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		1E86E6A22ADAABA30015EB9C /* Make it .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Make it .swift"; sourceTree = "<group>"; };
 		1E86E6A42ADAAC640015EB9C /* demoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demoVideo.mp4; sourceTree = "<group>"; };
+		1E86E6A82ADC04700015EB9C /* LoadingRecipesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRecipesPage.swift; sourceTree = "<group>"; };
+		1E86E6AA2ADC05C10015EB9C /* CategorysPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorysPage.swift; sourceTree = "<group>"; };
+		1E9F64AA2B0254A100092F2B /* ingredientsPaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingredientsPaje.swift; sourceTree = "<group>"; };
+		1E9F64AC2B027D8200092F2B /* RecipeFromAi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFromAi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,12 @@
 				1E86E6982AD3FC2C0015EB9C /* Splash Screen.swift */,
 				1E86E69C2AD3FD440015EB9C /* Onboarding.swift */,
 				1E86E6A22ADAABA30015EB9C /* Make it .swift */,
+				1E86E6AA2ADC05C10015EB9C /* CategorysPage.swift */,
+				1E9F64AA2B0254A100092F2B /* ingredientsPaje.swift */,
+				1E86E6A82ADC04700015EB9C /* LoadingRecipesPage.swift */,
+				1E9F64AC2B027D8200092F2B /* RecipeFromAi.swift */,
 				1E86E6A42ADAAC640015EB9C /* demoVideo.mp4 */,
+				1E45206A2B3C43E20054838B /* demoVideo2.MOV */,
 				1E86E68D2AD3FB830015EB9C /* Assets.xcassets */,
 				1E86E68F2AD3FB830015EB9C /* MUNCHABLE.entitlements */,
 				1E86E6902AD3FB830015EB9C /* Preview Content */,
@@ -139,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E45206B2B3C43E20054838B /* demoVideo2.MOV in Resources */,
 				1E86E6922AD3FB830015EB9C /* Preview Assets.xcassets in Resources */,
 				1E86E68E2AD3FB830015EB9C /* Assets.xcassets in Resources */,
 				1E86E6A52ADAAC640015EB9C /* demoVideo.mp4 in Resources */,
@@ -153,7 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E86E6992AD3FC2C0015EB9C /* Splash Screen.swift in Sources */,
+				1E9F64AD2B027D8200092F2B /* RecipeFromAi.swift in Sources */,
+				1E86E6A92ADC04700015EB9C /* LoadingRecipesPage.swift in Sources */,
 				1E86E68C2AD3FB820015EB9C /* ContentView.swift in Sources */,
+				1E86E6AB2ADC05C10015EB9C /* CategorysPage.swift in Sources */,
+				1E9F64AB2B0254A100092F2B /* ingredientsPaje.swift in Sources */,
 				1E86E6A32ADAABA30015EB9C /* Make it .swift in Sources */,
 				1E86E69D2AD3FD440015EB9C /* Onboarding.swift in Sources */,
 				1E86E68A2AD3FB820015EB9C /* MUNCHABLEApp.swift in Sources */,

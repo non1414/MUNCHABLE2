@@ -9,7 +9,11 @@ import SwiftUI
 
 struct RecipeFromAi: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 393, height: 574)
+          .background(.white)
+          .cornerRadius(35)
     }
 }
 
