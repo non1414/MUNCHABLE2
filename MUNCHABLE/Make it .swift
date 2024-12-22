@@ -3,29 +3,22 @@
 //  MUNCHABLE
 //
 //  Created by نوف بخيت الغامدي on 29/03/1445 AH.
-//
 
 import SwiftUI
 import AVKit
 import AVFoundation
 
-
 struct PlayerView: UIViewRepresentable {
-    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<PlayerView>) {
-    }
+    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<PlayerView>) {}
     
     func makeUIView(context: Context) -> UIView {
         return LoopingPlayerUIView(frame: .zero)
     }
 }
 
-
 class LoopingPlayerUIView: UIView {
     private let playerLayer = AVPlayerLayer()
     private var playerLooper: AVPlayerLooper?
-    
-    
-    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -35,7 +28,11 @@ class LoopingPlayerUIView: UIView {
         super.init(frame: frame)
         
         // Load the resource
-        let fileUrl = Bundle.main.url(forResource: "demoVideo", withExtension: "mp4")!
+        guard let fileUrl = Bundle.main.url(forResource: "demoVideo", withExtension: "mp4") else {
+            print("Error: Video file not found!")
+            return
+        }
+        
         let asset = AVAsset(url: fileUrl)
         let item = AVPlayerItem(asset: asset)
         
@@ -45,10 +42,8 @@ class LoopingPlayerUIView: UIView {
         playerLayer.videoGravity = .resizeAspectFill
         layer.addSublayer(playerLayer)
         
-        // Create a new player looper with the queue player and template item
         playerLooper = AVPlayerLooper(player: player, templateItem: item)
         
-        // Start the movie
         player.play()
     }
     
@@ -58,37 +53,51 @@ class LoopingPlayerUIView: UIView {
     }
 }
 
-
 struct Make_it_: View {
     var body: some View {
-        
-        GeometryReader{ geo in
+        NavigationStack {
             ZStack {
                 PlayerView()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: geo.size.width, height: geo.size.height+100)
-                    .overlay(Color.black.opacity(0.2))
-                    .blur(radius: 1)
                     .edgesIgnoringSafeArea(.all)
                 
-                VStack{
-                    Text("Welcome to our world of culinary adventures! ")
-                        .font(
-                            Font.custom("SF Pro Text", size: 30)
-                                .weight(.semibold)
-                        )
-                        .foregroundColor(.white)
-                        .frame(width: 349, height: 122, alignment: .topLeading)
+                VStack {
+                    Spacer()
                     
-                    Text("Get ready to explore mouthwatering recipes and elevate your cooking skills with Munchable ! ")
-                        .font(Font.custom("SF Pro Text", size: 20))
-                        .foregroundColor(.white)
-                        .frame(width: 349, height: 122, alignment: .topLeading)                .padding()
+                    // محتوى النصوص
+                    VStack(spacing: 16) {
+                        Text(NSLocalizedString("welcome_message", comment: ""))
+                            .font(
+                                Font.custom("SF Pro Text", size: 30)
+                                    .weight(.semibold)
+                            )
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal, 20)
+                        
+                        Text(NSLocalizedString("description_message", comment: ""))
+                            .font(Font.custom("SF Pro Text", size: 20))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal, 20)
+                    }
                     
+                    Spacer()
+                    
+                    // زر البداية
+                    NavigationLink(destination: CategorysPage()) {
+                        Text(NSLocalizedString("start_button", comment: ""))
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color("green"))
+                            .cornerRadius(10)
+                            .padding(.horizontal, 50)
+                    }
+                    .padding(.bottom, 30)
                 }
             }
         }
-        
     }
 }
 

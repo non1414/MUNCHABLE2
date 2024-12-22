@@ -8,4 +8,47 @@
 
 
 //Onboarding
-"Latest Technologies"= "Latest Technologies"
+"Skip" = "Skip";
+"Latest Technologies" = "Latest Technologies";
+"Use Make it to explore inspiring recipes to add a little fun to your dinner table by using AI." = "Use Make it to explore inspiring recipes to add a little fun to your dinner table by using AI.";
+"Get Inspired!" = "Get Inspired!";
+"Don’t know what to eat? we’ll suggest things to cook with the ingredients you have." = "Don’t know what to eat? we’ll suggest things to cook with the ingredients you have.";
+"Start" = "Start";
+
+// Make it
+"welcome_message" = "Welcome to our world of culinary adventures!";
+"description_message" = "Get ready to explore mouthwatering recipes and elevate your cooking skills with Munchable!";
+"start_button" = "Start";
+
+// Categorys
+"choose_ingredient_title" = "Choose your available ingredient!";
+"search_placeholder" = "What are you craving";
+"recently_searched" = "Recently searched";
+"no_recent_searches" = "No recent searches have been found";
+"next_button" = "Next";
+"step_title" = "Step 1";
+"Cancel"="Cancel";
+
+// Ingredients
+"your_ingredients_title" = "Your ingredients are";
+"make_it_button" = "Make it";
+"edit_button" = "Edit";
+"done_button" = "Done";
+"step_2_title" = "Step 2";
+
+//  RecipeFromAi
+"Pancake" = "Pancake";
+"Ingredients" = "Ingredients";
+"Directions" = "Directions";
+"Previous" = "Previous";
+"Next" = "Next";
+"Done" = "Done";
+"Mix dry ingredients." = "Mix dry ingredients.";
+"Preheat oven to 200°F." = "Preheat oven to 200°F.";
+"Mix wet ingredients." = "Mix wet ingredients.";
+"Add dry ingredients to milk mixture." = "Add dry ingredients to milk mixture.";
+"Heat a large skillet." = "Heat a large skillet.";
+"For each pancake, spoon 2 to 3 tablespoons." = "For each pancake, spoon 2 to 3 tablespoons.";
+
+
+

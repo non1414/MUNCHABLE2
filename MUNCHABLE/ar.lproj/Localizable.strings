@@ -8,9 +8,47 @@
 
 
 //Onboarding
-"Skip"="Skip"
-"Latest Technologies"= "Latest Technologies"
+"Skip" = "تخطي";
+"Latest Technologies" = "أحدث التقنيات";
+"Use Make it to explore inspiring recipes to add a little fun to your dinner table by using AI." = "استخدم Make it عشان تكتشف وصفات ملهمة وتضيف شوية متعة على اكلك باستخدام الذكاء الاصطناعي.";
+"Get Inspired!" = "خذلك جرعة إلهام!";
+"Don’t know what to eat? we’ll suggest things to cook with the ingredients you have." = "مو عارف وش تاكل؟ إحنا نقترحلك اكلات تطبخها بالمكونات اللي عندك.";
+"Start" = "ابدأ";
 
-"Use Make it to explore an inspiring recipes to add a little fun to your dinner table by using AI
- "="Use Make it to explore an inspiring recipes to add a little fun to your dinner table by using AI
- "
+// Make it
+"welcome_message" = "مرحبًا بكم في عالمنا المليء بمغامرات الطبخ!";
+"description_message" = "استعد لاستكشاف وصفات شهية وتعلم طبخ زي المحترفين مع Munchable!";
+"start_button" = "ابدأ";
+
+// Cateogrys
+"choose_ingredient_title" = "اختر المكونات اللي عندك!";
+"search_placeholder" = "ايش نفسك فيه؟";
+"recently_searched" = "تم البحث مؤخراً";
+"no_recent_searches" = "لم يتم العثور على أي عمليات بحث حديثة";
+"next_button" = "التالي";
+"step_title" = "الخطوة 1";
+
+//  Ingredients
+"your_ingredients_title" = "مكوناتك هي";
+"make_it_button" = "اصنعها";
+"edit_button" = "تعديل";
+"done_button" = "تم";
+"step_2_title" = "الخطوة 2";
+
+// Recipes Page
+"Pancake" = "بان كيك";
+"Ingredients" = "المكونات";
+"Directions" = "الإرشادات";
+"Previous" = "السابق";
+"Next" = "التالي";
+"Done" = "تم";
+"Mix dry ingredients." = "اخلط المكونات الجافة.";
+"Preheat oven to 200°F." = "سخن الفرن على 200 درجة.";
+"Mix wet ingredients." = "اخلط المكونات السائلة.";
+"Add dry ingredients to milk mixture." = "أضف المكونات الجافة إلى خليط الحليب.";
+"Heat a large skillet." = "سخن مقلاة كبيرة.";
+"For each pancake, spoon 2 to 3 tablespoons." = "لكل بان كيك، ضع 2 إلى 3 ملاعق كبيرة.";
+
+
+
+

@@ -11,7 +11,7 @@ import SwiftUI
 struct MUNCHABLEApp: App {
     var body: some Scene {
         WindowGroup {
-           LoadingRecipesPage()
+          Splash_Screen()
         }
     }
 }
